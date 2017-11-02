@@ -1,4 +1,13 @@
 .user-layout-body {
   padding-top: 75px;
 }
-
+.ui.top.header.borderless {
+  padding: 10px 10px 10px 10px;
+  background-color: #151016;
+  color: #E5F9E7;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+  font-size: 15px;
+  margin: 0px;
+}

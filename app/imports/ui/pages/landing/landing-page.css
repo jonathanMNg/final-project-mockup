@@ -1,25 +1,38 @@
-.landing-section-1 {
+.ui.borderless.landing-section-1 {
   padding: 10px 10px 30px 10px;
-  background-color: #00B5AD;
+  background-color: #151016;
   color: #E5F9E7;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+  font-size: 15px;
+  margin: 0px;
 }
-
+.ui.primary.button {
+  background-color: #151016;
+}
 .landing-section-2 {
-  padding: 20px 10px 20px 10px;
-  background-color: #E5F9E7;
-  color:  #00B5AD;
+  background: url('/images/landing.jpg') no-repeat fixed;
+  height: 700px;
 }
-
-.landing-section-3 {
-  padding: 20px 10px 30px 30px;
-  background-color: #00B5AD;
+.landing.introduction {
+  background-color:rgba(0, 0, 0, 0.7);
+  height: 700px;
+  border: none;
+  margin: 0px;
+}
+.landing.description {
+  padding: 150px;
+  font-size: 55px;
   color: #E5F9E7;
 }
-
 .landing-section-5 {
-  padding: 20px 10px 20px 10px;
-  background-color: #00B5AD;
+  background-color: #151016;
   color: #E5F9E7;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+  margin: 0px;
 }
 
 

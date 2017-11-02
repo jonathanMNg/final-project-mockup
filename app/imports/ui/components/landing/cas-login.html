@@ -3,7 +3,7 @@
       {{#if currentUser}}
       <div class="cas-logout">Logout</div>
       {{else}}
-      <div class="cas-login">Login</div>
+      <div class="cas-login">{{#if text}}{{text}}{{else}}Login{{/if}}</div>
       {{/if}}
     </div>
 </template>

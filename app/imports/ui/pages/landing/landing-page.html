@@ -1,61 +1,41 @@
 <template name="Landing_Page">
 
-  <div class="landing-section-1">
-    <div class="ui grid">
-
-      <div class="row">
-        <div class="ui right aligned sixteen wide column">
-          {{> Cas_Login }}
-        </div>
-
+  <div class="ui top fixed landing-section-1 borderless inverted menu">
+    <div class="ui container">
+      <div class="item">
+        <h1>Study Buddy
+          <i class="users icon"></i>
+        </h1>
       </div>
-      <div class="row">
-        <div class="ui center aligned sixteen wide column">
-          <h1 class="landing-section-1-welcome">Welcome to Study Buddy</h1>
-          <h3 class="landing-section-1-tagline">A Social Page Created To Help Student Find Their Study Mate</h3>
-        </div>
-      </div>
+      <a class="right item">
+        {{> Cas_Login}}
+      </a>
     </div>
   </div>
 
   <div class="landing-section-2">
-    <div class="ui grid">
-      <div class="ui eight wide column">
-        <img class="ui centered medium image" src="/images/profile.png">
-      </div>
-      <div class="ui eight wide middle aligned column">
-        <h1 class="landing-section-header">Create your profile.</h1>
-        <h1 class="landing-section-header">Specify your classes.</h1>
-      </div>
-    </div>
-  </div>
-
-  <div class="landing-section-3">
-    <div class="ui grid">
-      <div class="ui eight wide middle aligned column">
-        <h1 class="landing-section-header">Publish your profile in the Study Buddy directory.</h1>
-      </div>
-      <div class="ui eight wide column">
-        <img class="ui centered medium image" src="/images/directory.png">
+    <div class="ui container fluid landing introduction">
+      <div class="ui equal width center aligned grid">
+        <div class="column">
+          <div class="ui landing description container">
+            <div class="item">
+              <header>Two is better than one</header>
+              <br/>
+              <div class="description text" style="color:#D0D8D9">
+                <h2>Being bored studying alone? Need a free tutor who can help you learn better?</h2>
+                <h2>You are in the right place. With Study Buddy, you can find people who </h2>
+                <h2>can help you to learn better</h2>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
-  <div class="landing-section-2">
-    <div class="ui grid">
-      <div class="ui eight wide column">
-        <img class="ui centered medium image" src="/images/filter.png">
-      </div>
-      <div class="ui eight wide middle aligned column">
-        <h1 class="landing-section-header">Find Students Who Can Share Their Knowledge With You.</h1>
-      </div>
-    </div>
-  </div>
-
   <div class="landing-section-5">
     <div class="ui grid">
       <div class="ui center aligned sixteen wide column">
-        {{> Cas_Login size="large"}}
+        {{> Cas_Login size="large" text="Getting Started"}}
       </div>
     </div>
   </div>
